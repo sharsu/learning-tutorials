@@ -1,0 +1,41 @@
+10 threads - 500 calls per thread
+ConcurrentHashmp - computeIfAbsent - 54
+Sunchronize - 404
+ReentrantLock - 587
+VarHandle - 461
+
+10 threads - 500000 calls per thread
+ConcurrentHashmp - computeIfAbsent - 1172
+Sunchronize - 1581
+ReentrantLock - 2074
+VarHandle -
+
+50 threads - 500000 calls per thread
+ConcurrentHashmp - computeIfAbsent - 6044
+Sunchronize - 8449
+ReentrantLock - 5059
+VarHandle - 6025
+
+100 threads - 500000 calls per thread
+ConcurrentHashmp - computeIfAbsent - 11649
+Sunchronize - 17109
+ReentrantLock - 9142
+VarHandle - 13425
+
+1000 threads - 500 calls per thread
+ConcurrentHashmp - computeIfAbsent - 168
+Sunchronize - 932
+ReentrantLock - 598
+VarHandle - 472
+
+10000 threads - 500 calls per thread
+ConcurrentHashmp - computeIfAbsent - 850
+Sunchronize - 1939
+ReentrantLock - 1973
+VarHandle - 1326
+
+100000 threads - 500 calls per thread
+ConcurrentHashmp - computeIfAbsent - 6717
+Sunchronize - 9462
+ReentrantLock - 11431
+VarHandle - 6683
